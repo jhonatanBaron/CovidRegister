@@ -95,7 +95,7 @@ public class Employee {
 	public void setEnumEmployeeType(EnumEmployeetype enumEmployeeType) {
 		this.enumEmployeeType = enumEmployeeType;
 	}
-	
+	 
 	
 	
 	
