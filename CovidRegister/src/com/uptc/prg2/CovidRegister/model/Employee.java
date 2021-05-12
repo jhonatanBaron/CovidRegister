@@ -5,19 +5,16 @@ public class Employee {
 	private String name;
 	private int identification;
 	private EnumHealthState enumHealthState;
-	private EnumPoisiton enumPosition;
 	private EnumSymptom symptom;
 	private double temperature;
-	private EnumEmployeetype enumEmployeeType;
+	private EnumEmployeeType enumEmployeeType;
 
 	/////////// constructor///////////////
-	public Employee(String name, int identification, EnumHealthState enumHealthState, EnumPoisiton enumPosition,
-			EnumSymptom symptom, double temperature, EnumEmployeetype enumEmployeeType) {
-		super();
+	public Employee(String name, int identification, EnumHealthState enumHealthState,
+			EnumSymptom symptom, double temperature, EnumEmployeeType enumEmployeeType) {
 		this.name = name;
 		this.identification = identification;
 		this.enumHealthState = enumHealthState;
-		this.enumPosition = enumPosition;
 		this.symptom = symptom;
 		this.temperature = temperature;
 		this.enumEmployeeType = enumEmployeeType;
@@ -47,15 +44,7 @@ public class Employee {
 
 	public void setEnumHealthState(EnumHealthState enumHealthState) {
 		this.enumHealthState = enumHealthState;
-	}
-
-	public EnumPoisiton getEnumPosition() {
-		return enumPosition;
-	}
-
-	public void setEnumPosition(EnumPoisiton enumPosition) {
-		this.enumPosition = enumPosition;
-	}
+	}}
 
 	public EnumSymptom getSymptom() {
 		return symptom;
@@ -73,12 +62,17 @@ public class Employee {
 		this.temperature = temperature;
 	}
 
-	public EnumEmployeetype getEnumEmployeeType() {
+	public EnumEmployeeType getEnumEmployeeType() {
 		return enumEmployeeType;
 	}
 
-	public void setEnumEmployeeType(EnumEmployeetype enumEmployeeType) {
+	public void setEnumEmployeeType(EnumEmployeeType enumEmployeeType) {
 		this.enumEmployeeType = enumEmployeeType;
+	}
+	
+	public Object[] toObjectVector() {
+		return new Object[] {name, identification, enumHealthState.toString(),
+			symptom.toString(), temperature,  enumEmployeeType.toString()};
 	}
 
 }
