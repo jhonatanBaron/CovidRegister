@@ -5,10 +5,19 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-
+/**
+ * 
+ * @author CovidRegister
+ * @class clase para manejar la parte de persistencia
+ */
 public class Persistence {
 
-	
+	/**
+	 * 
+	 * @param nameFile : ruta del File a leer
+	 * @return : lista con las palabras leidas
+	 * @throws IOException
+	 */
 	public ArrayList<String> readFile(String nameFile) throws IOException{
 		ArrayList<String> linesRead = new ArrayList<>();
 		FileReader fileReader  = new FileReader( nameFile );
@@ -22,6 +31,11 @@ public class Persistence {
 		return linesRead;
 	}
 	
+	/**
+	 * 
+	 * @param nameFile : ruta del File a escribir
+	 * @param datas : lista de palabras que se  quieren escribir en el File
+	 */
 	public void writeFile( String nameFile, ArrayList<String> datas ) {
 		FileWriter fileWriter = null;
 		try {

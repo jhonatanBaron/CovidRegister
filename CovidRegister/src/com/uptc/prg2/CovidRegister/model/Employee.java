@@ -44,7 +44,7 @@ public class Employee {
 
 	public void setEnumHealthState(EnumHealthState enumHealthState) {
 		this.enumHealthState = enumHealthState;
-	}}
+	}
 
 	public EnumSymptom getSymptom() {
 		return symptom;
