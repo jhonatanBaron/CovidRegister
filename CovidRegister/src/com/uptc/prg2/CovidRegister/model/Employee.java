@@ -1,5 +1,10 @@
 package com.uptc.prg2.CovidRegister.model;
 
+/**
+ * 
+ * @author CovidRegister
+ * @class : clase que define un empleado
+ */
 public class Employee {
 
 	private String name;
@@ -10,8 +15,8 @@ public class Employee {
 	private EnumEmployeeType enumEmployeeType;
 
 	/////////// constructor///////////////
-	public Employee(String name, int identification, EnumHealthState enumHealthState,
-			EnumSymptom symptom, double temperature, EnumEmployeeType enumEmployeeType) {
+	public Employee(String name, int identification, EnumHealthState enumHealthState, EnumSymptom symptom,
+			double temperature, EnumEmployeeType enumEmployeeType) {
 		this.name = name;
 		this.identification = identification;
 		this.enumHealthState = enumHealthState;
@@ -69,10 +74,10 @@ public class Employee {
 	public void setEnumEmployeeType(EnumEmployeeType enumEmployeeType) {
 		this.enumEmployeeType = enumEmployeeType;
 	}
-	
+
 	public Object[] toObjectVector() {
-		return new Object[] {name, identification, enumHealthState.toString(),
-			symptom.toString(), temperature,  enumEmployeeType.toString()};
+		return new Object[] { name, identification, enumHealthState.toString(), symptom.toString(), temperature,
+				enumEmployeeType.toString() };
 	}
 
 }
