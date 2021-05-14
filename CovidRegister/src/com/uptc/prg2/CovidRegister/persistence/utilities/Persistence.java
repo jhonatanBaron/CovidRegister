@@ -1,4 +1,4 @@
-package com.uptc.prg2.CovidRegister.persistence;
+package com.uptc.prg2.CovidRegister.persistence.utilities;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
