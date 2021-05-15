@@ -4,7 +4,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.ArrayList;
-import com.uptc.prg2.CovidRegister.persistence.utilities.TextFileManager;
+import com.uptc.prg2.CovidRegister.models.Company;
+import com.uptc.prg2.CovidRegister.models.Employee;
+import com.uptc.prg2.CovidRegister.models.EnumEmployeeType;
+import com.uptc.prg2.CovidRegister.models.EnumHealthState;
+import com.uptc.prg2.CovidRegister.models.EnumSymptom;
+import com.uptc.prg2.CovidRegister.models.Report;
+import com.uptc.prg2.CovidRegister.persistence.utilities.Persistence;
 import com.uptc.prg2.CovidRegister.persistence.utilities.UtilitiesFiles;
 import com.uptc.prg2.CovidRegister.viewer.JFramePrincipal;
 
@@ -17,18 +23,45 @@ import com.uptc.prg2.CovidRegister.viewer.JFramePrincipal;
 public class Control implements ActionListener {
 
 	private JFramePrincipal jFramePrincipal;
-	private TextFileManager planeLecture;
 	private String[] plainDataRecibed;
+	private Persistence persistence;
+	private Company manager;
 
-	public Control() throws IOException {
-		planeLecture = new TextFileManager();
+	public Control() {
+		manager = new Company();
 		plainDataRecibed = new String[6];
-		this.plainDataSepartor();
+		persistence = new Persistence();
 		this.jFramePrincipal = new JFramePrincipal(this, plainDataRecibed);
+		init();
 	}
-/*
- * seleccion de accion
- */
+
+	private void init() {
+		readFile();
+	}
+
+	private void readFile() {
+		try {
+			ArrayList<String> lines = persistence.readFile("resources/data.csv");
+			for (String line : lines) {
+				String aux[] = line.split(";");
+				//Agrega un empleado
+				manager.addEmployee(
+						new Employee(aux[0], aux[1], Integer.parseInt(aux[2]), EnumEmployeeType.valueOf(aux[4])));
+				//Asigna si está vacunado el empleado
+				manager.setVaccinatedState(Integer.parseInt(aux[2]),UtilitiesFiles.getVaccinated(aux[3]));
+				
+				//Agrega los reportes del empleado
+				manager.addReport(Integer.parseInt(aux[2]), new Report(UtilitiesFiles.parseFecha(aux[5]),
+						EnumHealthState.valueOf(aux[6]), EnumSymptom.valueOf(aux[7]), Integer.valueOf(aux[8])));
+			}
+		} catch (IOException e) {
+			System.out.println("[FR] Archivo no encontrado");
+		}
+	}
+
+	/*
+	 * seleccion de accion
+	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		switch (Command.valueOf(e.getActionCommand())) {
@@ -74,14 +107,6 @@ public class Control implements ActionListener {
 		default:
 			break;
 
-		}
-	}
-
-	private void plainDataSepartor() throws IOException {
-		ArrayList<String> stringList = planeLecture.readFile();
-		for (String string : stringList) {
-			String[] aux = UtilitiesFiles.splitLine(string);
-			plainDataRecibed = aux;
 		}
 	}
 }

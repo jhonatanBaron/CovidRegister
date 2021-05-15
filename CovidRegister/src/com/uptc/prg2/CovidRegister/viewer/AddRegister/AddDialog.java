@@ -7,7 +7,6 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Toolkit;
 import java.awt.event.ActionListener;
-
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -16,15 +15,18 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
-import javax.swing.SpinnerNumberModel;
-import javax.swing.text.DefaultFormatter;
-
 import com.toedter.calendar.JDateChooser;
 import com.uptc.prg2.CovidRegister.controller.Command;
-import com.uptc.prg2.CovidRegister.persistence.HandlerLanguage;
+import com.uptc.prg2.CovidRegister.persistence.utilities.HandlerLanguage;
 import com.uptc.prg2.CovidRegister.viewer.JFramePrincipal;
 import com.uptc.prg2.CovidRegister.viewer.constants.Constants;
 import com.uptc.prg2.CovidRegister.viewer.utilities.Utilities;
+
+/**
+ * 
+ * @author CovidRegister
+ *
+ */
 
 public class AddDialog extends JDialog {
 
@@ -41,6 +43,7 @@ public class AddDialog extends JDialog {
 	private JLabel tittle;
 	private Dimension screenSize;
 
+	
 	public AddDialog(ActionListener actionListener,
 			JFramePrincipal jFramePrincipal) {
 		setModal(true);
@@ -60,10 +63,16 @@ public class AddDialog extends JDialog {
 		this.add(southPanel(actionListener),BorderLayout.SOUTH);
 		this.setVisible(false);
 	}
+	/**
+	 * metodo para el tamaño de la pantalla
+	 */
 	public void screenSize() {
 		screenSize =Toolkit.getDefaultToolkit().getScreenSize();
 	}
-
+	/**
+	 * 
+	 * @return componente panel norte
+	 */
 	private Component northPanel() {
 		northPanel = new JPanel();
 		northPanel.setBackground(Color.BLACK);

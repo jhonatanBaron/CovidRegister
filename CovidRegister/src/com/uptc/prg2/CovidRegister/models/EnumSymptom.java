@@ -1,4 +1,4 @@
-package com.uptc.prg2.CovidRegister.model;
+package com.uptc.prg2.CovidRegister.models;
 
 /**
  * 

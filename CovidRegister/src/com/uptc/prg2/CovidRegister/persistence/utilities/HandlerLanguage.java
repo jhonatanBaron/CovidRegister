@@ -26,6 +26,10 @@ public class HandlerLanguage {
 		languageProperties = PropertiesUtilities.generateProperties(language);
 	}
 	
+	/*
+	 * 
+	 * @throws IOException
+	 */
 	public void saveLanguage() throws IOException{
 		Properties handlerproperties = PropertiesUtilities.generateProperties(fileName);
 		handlerproperties.setProperty("Language", language);

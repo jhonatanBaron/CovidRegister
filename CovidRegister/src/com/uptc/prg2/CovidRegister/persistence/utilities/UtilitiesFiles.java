@@ -83,7 +83,7 @@ public class UtilitiesFiles {
 		return line.split(SPLIT_CHARACTER);
 	}
 
-	public static Date ParseFecha(String fecha) {
+	public static Date parseFecha(String fecha) {
 		SimpleDateFormat formato = new SimpleDateFormat(
 				"dd/MM/yyyy");
 		Date fechaDate = null;
@@ -101,24 +101,8 @@ public class UtilitiesFiles {
 		return localDate;
 	}
 
-//	public static Gender getGender(String genderStr) {
-//		switch (genderStr) {
-//		case "FEMENINO":
-//			return Gender.FEMENINO;
-//		case "MASCULINO":
-//			return Gender.MASCULINO;
-//		default:
-//			return Gender.FEMENINO;
-//		}
-//	}
 
-	public static String toStringSeparator(
-			Object[] object) {
-		String line = "";
-		for (Object object2 : object) {
-			line += object2 + "-";
-		}
-		return line;
-
+	public static boolean getVaccinated(String string) {
+		return string.equalsIgnoreCase("SI");
 	}
 }

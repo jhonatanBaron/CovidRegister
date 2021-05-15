@@ -1,4 +1,4 @@
-package com.uptc.prg2.CovidRegister.model;
+package com.uptc.prg2.CovidRegister.models;
 
 /**
  * 
@@ -7,7 +7,7 @@ package com.uptc.prg2.CovidRegister.model;
  */
 public enum EnumHealthState {
 
-	HEALTHY("Sano"), INFECTED("Infectado"), VACCINATED("Vacunado"), NOT_VACCINATED("No vacunado");
+	HEALTHY("Sano"), INFECTED("Infectado");
 
 	private final String name;
 
