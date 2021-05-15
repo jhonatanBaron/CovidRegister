@@ -7,7 +7,7 @@ package com.uptc.prg2.CovidRegister.models;
  */
 public enum EnumSymptom {
 
-	DRY_COUGH("Tos"), TIREDNESS("Cansancio"), HEADACHE("Dolor de cabeza "), LOSS_OF_SMELL("Pérdida del olfato"),
+	NONE("Ninguno"),DRY_COUGH("Tos"), TIREDNESS("Cansancio"), HEADACHE("Dolor de cabeza "), LOSS_OF_SMELL("Pérdida del olfato"),
 	LOSS_OF_TASTE("Pérdida del gusto"), DIFFICULTY_BREATHING("Dificultad para respirar");
 
 	private final String name;

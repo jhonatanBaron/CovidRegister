@@ -58,19 +58,20 @@ public class Company {
 	 * @return : un reporte con empleado y fecha
 	 */
 
-	public void addEmployee(Employee employee) {
-		if (employeeList.isEmpty()) {
+	public void addEmployee(Employee employee, EnumSymptom enumHealthState) {
+		if (employeeList.isEmpty() && enumHealthState.equals(EnumSymptom.NONE)) {
 			employeeList.add(employee);
 		} else {
 			for (Employee emp : employeeList) {
-				if (emp.getIdentification() != employee.getIdentification()) {
+				if ((emp.getIdentification() != employee.getIdentification())
+						&& enumHealthState.equals(EnumSymptom.NONE)) {
 					employeeList.add(employee);
 				}
 			}
 		}
 	}
 
-	//Retorna numero de cada sintoma en la empresa
+	// Retorna numero de cada sintoma en la empresa
 	public ArrayList<Integer> getNumberOfSymptoms() {
 		ArrayList<Integer> aux = new ArrayList<>();
 		for (EnumSymptom symptom : EnumSymptom.values()) {
@@ -88,15 +89,15 @@ public class Company {
 		return aux;
 	}
 
-	//Retorna una fila para la tabla de empleados
-	public ArrayList<Object[]> getEmployeesTable(){
+	// Retorna una fila para la tabla de empleados
+	public ArrayList<Object[]> getEmployeesTable() {
 		ArrayList<Object[]> aux = new ArrayList<>();
 		for (Employee employee : employeeList) {
 			aux.add(employee.toObjectVector());
 		}
 		return aux;
 	}
-	
+
 	// Muestra todas las temperaturas para un empleado
 	public ArrayList<Integer> temperatureVariation(Employee employee) {
 		ArrayList<Integer> temp = new ArrayList<>();
@@ -110,7 +111,7 @@ public class Company {
 		return temp;
 	}
 
-	//calcula porcenajes para el grafico de pastel
+	// calcula porcenajes para el grafico de pastel
 	public ArrayList<Double> calculateState() {
 		stateCompany = new ArrayList<>();
 		stateCompany.add(calculateInfectedAverage());

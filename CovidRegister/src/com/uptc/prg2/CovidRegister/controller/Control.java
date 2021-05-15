@@ -46,9 +46,8 @@ public class Control implements ActionListener {
 				String aux[] = line.split(";");
 				//Agrega un empleado
 				manager.addEmployee(
-						new Employee(aux[0], aux[1], Integer.parseInt(aux[2]), EnumEmployeeType.valueOf(aux[4])));
+						new Employee(aux[0], aux[1], Integer.parseInt(aux[2]), EnumEmployeeType.valueOf(aux[4])),EnumSymptom.valueOf(aux[6]));
 				//Asigna si está vacunado el empleado
-				manager.setVaccinatedState(Integer.parseInt(aux[2]),UtilitiesFiles.getVaccinated(aux[3]));
 				
 				//Agrega los reportes del empleado
 				manager.addReport(Integer.parseInt(aux[2]), new Report(UtilitiesFiles.parseFecha(aux[5]),
