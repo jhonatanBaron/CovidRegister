@@ -2,7 +2,7 @@ package com.uptc.prg2.CovidRegister.model;
 
 import java.util.Date;
 
-/**
+/*
  * 
  * @author CovidRegister
  * @class : clase que define un reporte el cual se compone de una fecha de

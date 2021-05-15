@@ -4,24 +4,31 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.ArrayList;
-
 import com.uptc.prg2.CovidRegister.persistence.utilities.TextFileManager;
 import com.uptc.prg2.CovidRegister.persistence.utilities.UtilitiesFiles;
 import com.uptc.prg2.CovidRegister.viewer.JFramePrincipal;
 
-public class Control implements ActionListener{
+/*
+ * 
+ * @author CovidRegister
+ *
+ */
+
+public class Control implements ActionListener {
 
 	private JFramePrincipal jFramePrincipal;
 	private TextFileManager planeLecture;
 	private String[] plainDataRecibed;
 
 	public Control() throws IOException {
-		planeLecture= new TextFileManager();
-		plainDataRecibed= new String[6];
+		planeLecture = new TextFileManager();
+		plainDataRecibed = new String[6];
 		this.plainDataSepartor();
-		this.jFramePrincipal = new JFramePrincipal(this,plainDataRecibed);
+		this.jFramePrincipal = new JFramePrincipal(this, plainDataRecibed);
 	}
-
+/*
+ * seleccion de accion
+ */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		switch (Command.valueOf(e.getActionCommand())) {
@@ -69,12 +76,12 @@ public class Control implements ActionListener{
 
 		}
 	}
-	
+
 	private void plainDataSepartor() throws IOException {
 		ArrayList<String> stringList = planeLecture.readFile();
-		for (String string :stringList) {
-			String[] aux = UtilitiesFiles.splitLine( string );			
-			plainDataRecibed=aux;
+		for (String string : stringList) {
+			String[] aux = UtilitiesFiles.splitLine(string);
+			plainDataRecibed = aux;
 		}
 	}
 }

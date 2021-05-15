@@ -16,9 +16,12 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
+import javax.swing.SpinnerNumberModel;
+import javax.swing.text.DefaultFormatter;
 
+import com.toedter.calendar.JDateChooser;
 import com.uptc.prg2.CovidRegister.controller.Command;
-import com.uptc.prg2.CovidRegister.persistence.utilities.HandlerLanguage;
+import com.uptc.prg2.CovidRegister.persistence.HandlerLanguage;
 import com.uptc.prg2.CovidRegister.viewer.JFramePrincipal;
 import com.uptc.prg2.CovidRegister.viewer.constants.Constants;
 import com.uptc.prg2.CovidRegister.viewer.utilities.Utilities;

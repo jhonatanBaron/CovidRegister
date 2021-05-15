@@ -12,7 +12,6 @@ import java.util.ArrayList;
  * @class clase para manejar la parte de persistencia
  *
  *
- *ESTE TOCA QUITARLO!!
  */
 
 public class Persistence {
