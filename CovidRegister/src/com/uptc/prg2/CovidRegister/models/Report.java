@@ -1,5 +1,6 @@
 package com.uptc.prg2.CovidRegister.models;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 /*
@@ -10,19 +11,20 @@ import java.util.Date;
  */
 public class Report {
 
-	private Date date;
-	private EnumHealthState enumHealthState;
+	private LocalDate date;
 	private EnumSymptom symptom;
 	private int temperature;
+	private Employee employee;
 
-	public Report(Date date, EnumHealthState enumHealthState, EnumSymptom symptom, int temperature) {
+	public Report(LocalDate date, EnumSymptom symptom, 
+			int temperature, Employee employee) {
 		this.date = date;
-		this.enumHealthState = enumHealthState;
 		this.symptom = symptom;
 		this.temperature = temperature;
+		this.employee = employee;
 	}
 
-	public Date getDate() {
+	public LocalDate getDate() {
 		return date;
 	}
 
@@ -30,11 +32,17 @@ public class Report {
 		return symptom;
 	}
 
-	public Object[] toObjectVector() {
-		return new Object[] { date, enumHealthState.toString(), symptom.toString(), temperature };
+	public int getTemperature() {
+		return temperature;
 	}
 
-	public Integer getTemp() {
-		return temperature;
+	public Employee getEmployee() {
+		return employee;
+	}
+	
+	public Object[] toObjectVector() {
+		return new Object [] {date, symptom, temperature, 
+				employee.getName(), employee.getLastName(),  employee.getIdentification(),
+				employee.isVaccinated(), employee.getEnumHealthState(), employee.getEnumEmployeeType()};
 	}
 }
