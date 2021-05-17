@@ -28,6 +28,7 @@ public class Control implements ActionListener {
 	private Company manager;
 
 	public Control() {
+		
 		manager = new Company();
 		plainDataRecibed = new String[6];
 		persistence = new Persistence();
@@ -37,6 +38,12 @@ public class Control implements ActionListener {
 
 	private void init() {
 		readFile();
+		try {
+			persistence.WriteReportRow("src/data.txt",Company.createReport(null, null, 0, null));
+		} catch (IOException e) {
+			//  :v  v:  
+			e.printStackTrace();
+		}
 	}
 
 	private void readFile() {

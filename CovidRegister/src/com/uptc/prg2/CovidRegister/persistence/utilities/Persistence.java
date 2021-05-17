@@ -6,6 +6,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import com.uptc.prg2.CovidRegister.models.Employee;
+import com.uptc.prg2.CovidRegister.models.Report;
+
 /*
  * 
  * @author CovidRegister
@@ -44,6 +47,7 @@ public class Persistence {
 	 * @param datas : lista de palabras que se quieren escribir en el File
 	 */
 	public void writeFile(String nameFile, ArrayList<String> datas) {
+
 		FileWriter fileWriter = null;
 		try {
 			fileWriter = new FileWriter(nameFile);
@@ -60,4 +64,20 @@ public class Persistence {
 			}
 		}
 	}
+	/**
+	 * 
+	 * @param nameFile : ruta del archivo
+	 * @param report : el reporte :v
+	 * @throws IOException : laexcepcion :v 
+	 */
+	
+	public void WriteReportRow(String nameFile, Report report) throws IOException {
+		FileWriter fileWriter = new FileWriter(nameFile);
+		Employee employee = report.getEmployee();
+		fileWriter.write(employee.getName() + "," + employee.getLastName() + "," + employee.getIdentification() + ","
+				+ employee.getEnumHealthState() + "," + report.getSymptom() + employee.getEnumEmployeeType()
+				+ report.getDate());
+		fileWriter.close();
+	}
+	
 }

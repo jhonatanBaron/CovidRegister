@@ -1,6 +1,6 @@
 package com.uptc.prg2.CovidRegister.models;
 
-/**
+/*
  * 
  * @author CovidRegister
  * @enum : enumerado que maneja los tipos de empleado

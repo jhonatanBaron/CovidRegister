@@ -45,4 +45,11 @@ public class Report {
 				employee.getName(), employee.getLastName(),  employee.getIdentification(),
 				employee.isVaccinated(), employee.getEnumHealthState(), employee.getEnumEmployeeType()};
 	}
+
+	@Override
+	public String toString() {
+		return "Report [date=" + date + ", symptom=" + symptom + ", temperature=" + temperature + ", employee="
+				+ employee + "]";
+	}
+	
 }

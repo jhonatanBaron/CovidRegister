@@ -41,6 +41,7 @@ public class Company {
 
 	public static Report createReport(LocalDate date, EnumSymptom symptom, int temperature, Employee employee) {
 		return new Report(date, symptom, temperature, employee);
+		
 	}
 
 	public void addReport(Report report) {
@@ -48,7 +49,8 @@ public class Company {
 	}
 
 	// Retorna una fila para la tabla de empleados
-	// no se para que es este metodo
+	// no se para que es este metodo-->bota un arraylist de arreglos y cada arreglo corresponde a una fila,y cada elemento de ese arre-
+	//glo corresponde  a una celda de esa fila, osea cada posicion en cada columna, eso es para quemar datos en table
 
 	public ArrayList<Object[]> getEmployeesTable() {
 

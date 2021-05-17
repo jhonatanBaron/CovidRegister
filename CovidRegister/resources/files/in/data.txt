@@ -1,0 +1,204 @@
+﻿luis,espinoza,32890499 ,SANO,Ninguno,35,Jefe,13/04/2021
+fabian,alvarez,32789559 ,INFECTADO,Tos,38,oficinista,25/04/2021
+hernan,diaz,22528066 ,SANO,Ninguno,37,Seguridad,14/04/2021
+marisol,fernandez,72043455 ,SANO,Ninguno,36,Servicios,15/04/2021
+julian,macias,1129572839 ,SANO,Ninguno,35,oficinista,11/04/2021
+david,ramirez,22479990 ,SANO,Ninguno,39,Seguridad,01/04/2021
+santiago,benavides,32668195 ,INFECTADO,Perdida del gusto,40,Servicios,14/04/2021
+brandon,hernandez,22516311 ,SANO,Ninguno,36,Servicios,06/04/2021
+leidy,romero,1129509728 ,SANO,Ninguno,35,Seguridad,04/04/2021
+raul,castro,55224208 ,SANO,Ninguno,35,oficinista,11/04/2021
+saul,baron,72181696 ,SANO,Ninguno,36,Servicios,21/04/2021
+esteban,lesmes,80845402 ,SANO,Ninguno,35,Servicios,27/04/2021
+leidy,cuervo,32651141 ,SANO,Ninguno,35,Servicios,14/04/2021
+sofia,camargo,1045668379 ,INFECTADO,Cansancio,40,Seguridad,20/04/2021
+maria,pacagui,32652944 ,SANO,Ninguno,35,Seguridad,10/04/2021
+lucia,suarez,72286444 ,SANO,Ninguno,37,oficinista,23/04/2021
+matias,rios,65766460 ,SANO,Ninguno,36,Servicios,16/04/2021
+hernesto,piracoca,92504973 ,SANO,Ninguno,35,Seguridad,12/04/2021
+hernan,panche,92258819 ,SANO,Ninguno,35,Jefe,12/04/2021
+cristian,ayala,18777641 ,SANO,Ninguno,35,oficinista,27/04/2021
+cristina,andrade,22868777 ,SANO,Ninguno,37,Seguridad,15/04/2021
+miguel,benitez,22534105 ,INFECTADO,Dolor de cabeza,39,Servicios,30/04/2021
+carlos ,castillo,37319194 ,INFECTADO,Perdida del olfato,38,oficinista,15/04/2021
+jhonatan,contreras,57292233 ,SANO,Ninguno,37,Seguridad,01/04/2021
+sebastian,leon,85453810 ,SANO,Ninguno,37,oficinista,12/04/2021
+teresa,duarte,52710695 ,SANO,Ninguno,36,Servicios,14/04/2021
+camila,flores,51738984 ,SANO,Ninguno,37,oficinista,05/04/2021
+camilo,garcia,52355290 ,SANO,Ninguno,35,Seguridad,18/04/2021
+ramiro,gimenez,79962291 ,SANO,Ninguno,36,Seguridad,18/04/2021
+marcela,gomez,41547273 ,SANO,Ninguno,35,Jefe,17/04/2021
+marcelo,gutierrez,51899077 ,SANO,Ninguno,36,oficinista,08/04/2021
+ximena,gonzales,39568175 ,INFECTADO,Dificultad para respirar,39,Seguridad,29/04/2021
+xiomara,jimenez,52755672 ,INFECTADO,Tos,39,Servicios,04/04/2021
+jeison,lopez,52817196 ,INFECTADO,Cansancio,39,oficinista,12/04/2021
+steven,mora,52960227 ,INFECTADO,Dolor de cabeza,38,Seguridad,27/04/2021
+juliana,morales,52329187 ,SANO,Ninguno,35,oficinista,25/04/2021
+carolina,moreno,52494004 ,SANO,Ninguno,35,Seguridad,10/04/2021
+andrea,muñoz,52705875 ,SANO,Ninguno,37,Servicios,16/04/2021
+andres,reyes ,52987453 ,SANO,Ninguno,35,oficinista,28/04/2021
+gustavo,rivera,52880406 ,SANO,Ninguno,35,Seguridad,06/04/2021
+luis,espinoza,39559801 ,SANO,Ninguno,35,Servicios,12/04/2021
+hernan,diaz,52453801 ,SANO,Ninguno,35,oficinista,28/04/2021
+julian,macias,19442527 ,SANO,Ninguno,35,Servicios,08/04/2021
+santiago,benavides,52198296 ,INFECTADO,Perdida del olfato,40,Seguridad,14/04/2021
+leidy,romero,52807753 ,SANO,Ninguno,36,oficinista,30/04/2021
+saul,baron,51650895 ,SANO,Ninguno,37,Seguridad,03/04/2021
+leidy,cuervo,80235960 ,SANO,Ninguno,36,Servicios,23/04/2021
+lucia,pacagui,30396689 ,SANO,Ninguno,35,oficinista,25/04/2021
+hernesto,suarez,79998342 ,SANO,Ninguno,35,Servicios,27/04/2021
+cristina,piracoca,52265956 ,SANO,Ninguno,37,oficinista,16/04/2021
+carlos ,panche,52428220 ,SANO,Ninguno,36,Seguridad,17/04/2021
+jhonatan,ayala,52962491 ,SANO,Ninguno,37,Servicios,23/04/2021
+teresa,benitez,52517450 ,SANO,Ninguno,35,Servicios,21/04/2021
+ramiro,piracoca,52427093 ,INFECTADO,Tos,40,oficinista,28/04/2021
+ximena,panche,39625110 ,SANO,Ninguno,37,Seguridad,18/04/2021
+steven,ayala,51963634 ,SANO,Ninguno,37,Servicios,22/04/2021
+carolina,benitez,52329575 ,SANO,Ninguno,36,oficinista,10/04/2021
+andres,castillo,51553923 ,SANO,Ninguno,36,Seguridad,03/04/2021
+luis,contreras,52835436 ,SANO,Ninguno,37,Jefe,04/04/2021
+fabian,leon,35353993 ,SANO,Ninguno,37,Jefe,22/04/2021
+hernan,gomez,52146038 ,INFECTADO,Ninguno,36,oficinista,02/04/2021
+marisol,gutierrez,30402976 ,SANO,Ninguno,35,Seguridad,07/04/2021
+julian,gonzales,52771781 ,SANO,Ninguno,37,Servicios,19/04/2021
+david,jimenez,52252464 ,SANO,Ninguno,37,oficinista,19/04/2021
+santiago,lopez,79800914 ,SANO,Ninguno,36,Seguridad,30/04/2021
+brandon,mora,28685434 ,SANO,Ninguno,37,Servicios,13/04/2021
+leidy,morales,39548021 ,SANO,Ninguno,37,Jefe,19/04/2021
+raul,moreno,60263649 ,SANO,Ninguno,37,oficinista,28/04/2021
+saul,espinoza,78703533 ,SANO,Ninguno,35,Seguridad,28/04/2021
+esteban,diaz,52021541 ,INFECTADO,Perdida del gusto,38,Seguridad,16/04/2021
+leidy,macias,52477124 ,SANO,Ninguno,36,Servicios,01/04/2021
+sofia,benavides,52357419 ,SANO,Ninguno,36,oficinista,02/04/2021
+maria,romero,80525886 ,SANO,Ninguno,37,Seguridad,09/04/2021
+lucia,baron,52556028 ,SANO,Ninguno,37,Servicios,21/04/2021
+matias,cuervo,3983136 ,SANO,Ninguno,36,Seguridad,29/04/2021
+cristiano,pacagui,52982828 ,SANO,Ninguno,37,Seguridad,11/04/2021
+neymar,suarez,40777577 ,SANO,Ninguno,36,Seguridad,12/04/2021
+gerard,piracoca,28892971 ,SANO,Ninguno,37,oficinista,02/04/2021
+lionel,panche,41781216 ,SANO,Ninguno,35,Seguridad,18/04/2021
+leo,ayala,51562804 ,SANO,Ninguno,35,Servicios,09/04/2021
+neymar,benitez,41598716 ,INFECTADO,Perdida del gusto,40,oficinista,25/04/2021
+ana,piracoca,3968248 ,SANO,Ninguno,37,oficinista,22/04/2021
+enzo,panche,52539108 ,SANO,Ninguno,36,Seguridad,10/04/2021
+eric,ayala,19393136 ,SANO,Ninguno,36,Seguridad,09/04/2021
+eva,benitez,13541790 ,SANO,Ninguno,36,Seguridad,01/04/2021
+leo,lara,79514499 ,SANO,Ninguno,36,Seguridad,16/04/2021
+luz,alvarez,52504235 ,SANO,Ninguno,36,oficinista,16/04/2021
+juan,petro,52334827 ,SANO,Ninguno,35,oficinista,14/04/2021
+mar ,aldana,41365113 ,SANO,Ninguno,35,Jefe,27/04/2021
+nora,ramirez,19273241 ,SANO,Ninguno,37,Seguridad,18/04/2021
+sara,acosta,52324374 ,SANO,Ninguno,37,Seguridad,27/04/2021
+hector,abdo,51937530 ,INFECTADO,Tos,39,oficinista,19/04/2021
+helena,ebdo,1979784 ,INFECTADO,Perdida del gusto,39,oficinista,05/04/2021
+penelope,aguayo,52386987 ,INFECTADO,Perdida del gusto,38,Servicios,14/04/2021
+ulises,reyes ,19296439 ,INFECTADO,Cansancio,38,Servicios,21/04/2021
+zeus,sanchez,79055667 ,INFECTADO,Perdida del gusto,38,oficinista,28/04/2021
+alba,polanco,79503076 ,SANO,Ninguno,37,oficinista,18/04/2021
+alejandro,villamizar,52848172 ,SANO,Ninguno,36,Servicios,27/04/2021
+emma,castano,45761623 ,SANO,Ninguno,35,Seguridad,04/04/2021
+lucas,ospina,54255464 ,SANO,Ninguno,35,Servicios,16/04/2021
+manuel,moya,52113219 ,SANO,Ninguno,35,Seguridad,30/04/2021
+mariana,gusman,52419858 ,SANO,Ninguno,36,Servicios,06/04/2021
+martin,puerto,7938517 ,SANO,Ninguno,35,oficinista,04/04/2021
+bernardo ,nieto,40384475 ,SANO,Ninguno,37,Seguridad,05/04/2021
+esther,diaz,52279000 ,SANO,Ninguno,35,Servicios,09/04/2021
+gabriel,macias,51864061 ,SANO,Ninguno,37,oficinista,16/04/2021
+isabel,benavides,52424544 ,SANO,Ninguno,36,Seguridad,16/04/2021
+jorge,romero,52355729 ,SANO,Ninguno,36,Servicios,19/04/2021
+moises ,baron,52056904 ,SANO,Ninguno,37,Servicios,17/04/2021
+raquel ,cuervo,51642781 ,SANO,Ninguno,37,oficinista,09/04/2021
+samuel,pacagui,52056236 ,SANO,Ninguno,35,Servicios,18/04/2021
+alberto,suarez,79712892 ,SANO,Ninguno,35,oficinista,29/04/2021
+enrique ,piracoca,79841386 ,SANO,Ninguno,36,Seguridad,06/04/2021
+felipe,panche,52849625 ,SANO,Ninguno,36,oficinista,01/04/2021
+leticia,ayala,52849626 ,SANO,Ninguno,36,Seguridad,10/04/2021
+margarita,benitez,52365690 ,SANO,Ninguno,37,Seguridad,24/04/2021
+paula,piracoca,16079301 ,SANO,Ninguno,37,Servicios,04/04/2021
+carka,panche,52515572 ,SANO,Ninguno,36,oficinista,26/04/2021
+martina,ayala,52384245 ,SANO,Ninguno,37,Seguridad,13/04/2021
+hugo,benitez,41646919 ,INFECTADO,Perdida del gusto,40,Servicios,04/04/2021
+antonio,lara,41711908 ,INFECTADO,Tos,39,Seguridad,02/04/2021
+francisco,alvarez,52112753 ,INFECTADO,Perdida del gusto,38,oficinista,24/04/2021
+eduardo,petro,35324428 ,INFECTADO,Cansancio,40,Seguridad,01/04/2021
+nabila,aldana,46660281 ,INFECTADO,Dificultad para respirar,40,Seguridad,04/04/2021
+nadir,espinoza,52158883 ,INFECTADO,Tos,40,Seguridad,25/04/2021
+nahun,alvarez,39523439 ,INFECTADO,Perdida del gusto,39,Servicios,06/04/2021
+naomi,diaz,51983065 ,INFECTADO,Tos,38,Servicios,10/04/2021
+narciso,fernandez,51814402 ,INFECTADO,Cansancio,38,oficinista,05/04/2021
+nastasia,macias,51817113 ,INFECTADO,Dolor de cabeza,38,Seguridad,16/04/2021
+natalia,ramirez,51798156 ,INFECTADO,Dificultad para respirar,39,Servicios,14/04/2021
+natasha,benavides,52046965 ,INFECTADO,Tos,40,Servicios,22/04/2021
+natan,hernandez,51911248 ,SANO,Ninguno,35,Servicios,22/04/2021
+nebo,romero,52150493 ,SANO,Ninguno,37,oficinista,30/04/2021
+neftali,castro,51706582 ,SANO,Ninguno,37,Seguridad,18/04/2021
+nasser,baron,52371313 ,SANO,Ninguno,37,Seguridad,15/04/2021
+luz,lesmes,35316316 ,SANO,Ninguno,37,Servicios,22/04/2021
+juan,cuervo,51624873 ,SANO,Ninguno,36,Servicios,04/04/2021
+mar ,camargo,52254963 ,SANO,Ninguno,36,Servicios,26/04/2021
+nora,pacagui,39779435 ,SANO,Ninguno,35,Servicios,16/04/2021
+sara,suarez,51688372 ,SANO,Ninguno,35,Servicios,26/04/2021
+hector,rios,52109956 ,SANO,Ninguno,37,Servicios,25/04/2021
+helena,espinoza,39705027 ,SANO,Ninguno,37,oficinista,15/04/2021
+penelope,diaz,41779627 ,SANO,Ninguno,35,Seguridad,08/04/2021
+ulises,macias,5211318 ,INFECTADO,Perdida del gusto,39,Jefe,04/04/2021
+zeus,benavides,35532487 ,INFECTADO,Tos,38,Seguridad,18/04/2021
+alba,romero,51840813 ,INFECTADO,Cansancio,40,Jefe,29/04/2021
+alejandro,baron,51741657 ,INFECTADO,Dificultad para respirar,40,Jefe,18/04/2021
+emma,cuervo,4216436 ,INFECTADO,Tos,38,Jefe,24/04/2021
+lucas,pacagui,79578211 ,SANO,Ninguno,36,oficinista,18/04/2021
+manuel,suarez,79720139 ,SANO,Ninguno,36,Servicios,02/04/2021
+mariana,piracoca,79109337 ,SANO,Ninguno,37,Servicios,07/04/2021
+martin,panche,1128051381 ,SANO,Ninguno,36,Servicios,21/04/2021
+bernardo ,ayala,52704972 ,SANO,Ninguno,35,Servicios,23/04/2021
+esther,benitez,52538168 ,SANO,Ninguno,37,Servicios,21/04/2021
+gabriel,piracoca,51811492 ,SANO,Ninguno,35,Servicios,26/04/2021
+isabel,panche,52825001 ,SANO,Ninguno,36,Servicios,18/04/2021
+jorge,ayala,52077729 ,SANO,Ninguno,35,Servicios,10/04/2021
+moises ,benitez,52537361 ,SANO,Ninguno,37,Servicios,06/04/2021
+raquel ,lara,52410631 ,SANO,Ninguno,36,Servicios,05/04/2021
+samuel,alvarez,52084899 ,SANO,Ninguno,37,oficinista,27/04/2021
+alberto,petro,52702346 ,SANO,Ninguno,35,Servicios,09/04/2021
+enrique ,aldana,39759256 ,SANO,Ninguno,37,Servicios,22/04/2021
+felipe,ramirez,79518873 ,SANO,Ninguno,37,Servicios,02/04/2021
+leticia,acosta,79421554 ,SANO,Ninguno,36,Servicios,05/04/2021
+margarita,abdo,79943723 ,SANO,Ninguno,36,Servicios,07/04/2021
+paula,ebdo,51566452 ,INFECTADO,Cansancio,39,oficinista,01/04/2021
+carka,aguayo,51796140 ,INFECTADO,Tos,39,Servicios,24/04/2021
+martina,reyes ,52326324 ,INFECTADO,Dolor de cabeza,38,Servicios,19/04/2021
+hugo,espinoza,51769939 ,INFECTADO,Dolor de cabeza,40,Servicios,22/04/2021
+leidy,alvarez,52430169 ,INFECTADO,Perdida del olfato,38,Servicios,08/04/2021
+sofia,diaz,36291038 ,INFECTADO,Perdida del gusto,38,Servicios,28/04/2021
+maria,fernandez,52866895 ,INFECTADO,Dificultad para respirar,40,Servicios,18/04/2021
+lucia,macias,75071106 ,INFECTADO,Tos,39,oficinista,08/04/2021
+matias,ramirez,51761652 ,INFECTADO,Perdida del gusto,38,Servicios,28/04/2021
+cristiano,benavides,79445103 ,INFECTADO,Cansancio,40,Servicios,04/04/2021
+neymar,hernandez,52145558 ,INFECTADO,Perdida del gusto,40,Servicios,29/04/2021
+gerard,romero,20590542 ,INFECTADO,Tos,38,oficinista,07/04/2021
+lionel,castro,51975319 ,INFECTADO,Perdida del gusto,39,oficinista,14/04/2021
+leo,baron,52378165 ,SANO,Ninguno,36,Servicios,18/04/2021
+neymar,lesmes,51837253 ,SANO,Ninguno,37,oficinista,08/04/2021
+ana,cuervo,52150342 ,SANO,Ninguno,35,Servicios,14/04/2021
+enzo,camargo,52492169 ,SANO,Ninguno,37,Servicios,19/04/2021
+eric,pacagui,52491797 ,SANO,Ninguno,36,Servicios,22/04/2021
+eva,suarez,39540379 ,SANO,Ninguno,36,Servicios,19/04/2021
+leo,rios,51753113 ,SANO,Ninguno,37,Servicios,17/04/2021
+luz,piracoca,5286791 ,SANO,Ninguno,35,Servicios,28/04/2021
+juan,panche,51943068 ,SANO,Ninguno,35,oficinista,05/04/2021
+mar ,ayala,52152243 ,SANO,Ninguno,36,oficinista,29/04/2021
+nora,andrade,51774527 ,SANO,Ninguno,36,Servicios,05/04/2021
+sara,romero,65766923 ,SANO,Ninguno,35,Servicios,16/04/2021
+hector,castro,52274801 ,SANO,Ninguno,35,Servicios,19/04/2021
+helena,baron,52363757 ,SANO,Ninguno,36,Servicios,05/04/2021
+penelope,lesmes,55175073 ,INFECTADO,Tos,40,oficinista,11/04/2021
+ulises,cuervo,65732503 ,SANO,Ninguno,39,oficinista,28/04/2021
+zeus,camargo,51838866 ,INFECTADO,Cansancio,39,Jefe,29/04/2021
+alba,pacagui,80392314 ,SANO,Ninguno,37,Servicios,15/04/2021
+alejandro,suarez,79461806 ,SANO,Ninguno,36,Servicios,18/04/2021
+emma,rios,52416398 ,INFECTADO,Tos,40,oficinista,30/04/2021
+lucas,espinoza,52094336 ,INFECTADO,Perdida del gusto,40,oficinista,17/04/2021
+manuel,diaz,52932132 ,SANO,Ninguno,36,Servicios,18/04/2021
+mariana,macias,1099202504 ,SANO,Ninguno,36,oficinista,23/04/2021
+,,,,,,,
+,,,,,,,
+,,,,, ,,
